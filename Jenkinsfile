@@ -16,5 +16,15 @@ pipeline {
 				echo "Int Test"
 				}
 			}
+		} post {
+			always {
+				echo 'Im awesome'
+			}
+			success {
+				echo 'I succedeed'
+			}
+			failure {
+				echo 'I failed'
+			}
 		}
 }
