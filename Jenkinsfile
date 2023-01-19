@@ -16,7 +16,8 @@ pipeline {
 				echo "Int Test"
 				}
 			}
-		} post {
+		} 
+		post {
 			always {
 				echo 'Im awesome'
 			}
